@@ -1,6 +1,5 @@
 ad_identifiers:
-  - cluster-agent
-  - cluster-agent-dev
+  - datadog-cluster-agent
 
 init_config:
 
@@ -53,7 +52,7 @@ instances:
       - path: custommetrics/External/Total
         type: gauge
       - path: custommetrics/External/Valid
-        type: rate
+        type: gauge
 
       - path: datadog-api/Errors
         type: rate

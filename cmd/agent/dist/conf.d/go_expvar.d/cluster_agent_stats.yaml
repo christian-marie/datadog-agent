@@ -1,5 +1,6 @@
 ad_identifiers:
   - cluster-agent
+  - cluster-agent-dev
 
 init_config:
 
